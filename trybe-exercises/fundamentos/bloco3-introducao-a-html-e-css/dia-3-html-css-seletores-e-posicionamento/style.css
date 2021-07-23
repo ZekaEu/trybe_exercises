@@ -1,12 +1,31 @@
-h1, p{
-  text-align: center;
+ol {
+  background-color: yellow;
 }
-li:hover{
-  background-color: yellowgreen;
+.par {
+  color: green;
 }
-li:active{
-  font-style: italic;
+.impar {
+  text-transform: uppercase;
 }
-ol, ul{
-  list-style: none;
+h1, h3{
+  color: red;
+}
+h1{
+  font-size: 40px;
+  border: 1px solid black;
+}
+li {
+  font-size: 20px;
+}
+#italics {
+  font-weight: bold;
+}
+.blue {
+  color: blue;
+}
+.java {
+  background-color: pink;
+}
+a:hover{
+  background-color: green;
 }
