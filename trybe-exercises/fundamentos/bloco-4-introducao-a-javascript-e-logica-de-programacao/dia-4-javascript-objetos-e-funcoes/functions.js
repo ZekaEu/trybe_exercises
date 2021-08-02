@@ -28,14 +28,28 @@
 
 //exercicio 3
 
-function iMenorNum (numbers) {
-  let iDoMenor = 0;
-  for (let i in numbers) {
-    if (numbers[iDoMenor] > numbers[i]) {
-      iDoMenor = i;
+// function iMenorNum (numbers) {
+//   let iDoMenor = 0;
+//   for (let i in numbers) {
+//     if (numbers[iDoMenor] > numbers[i]) {
+//       iDoMenor = i;
+//     }
+//   }
+//   return iDoMenor;
+// }
+
+// console.log(iMenorNum([2, 4, 6, 7, 10, 0, -3]));
+
+//exercicio 4
+
+function maiorNome (nomes) {
+  let maior = 0;
+  for (let i in nomes) {
+    if (nomes[maior].length < nomes[i].length) {
+      maior = i;
     }
   }
-  return iDoMenor;
+  return nomes[maior];
 }
 
-console.log(iMenorNum([2, 4, 6, 7, 10, 0, -3]));
+console.log(maiorNome(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));
