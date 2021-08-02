@@ -42,14 +42,28 @@
 
 //exercicio 4
 
-function maiorNome (nomes) {
-  let maior = 0;
-  for (let i in nomes) {
-    if (nomes[maior].length < nomes[i].length) {
-      maior = i;
-    }
+// function maiorNome (nomes) {
+//   let maior = 0;
+//   for (let i in nomes) {
+//     if (nomes[maior].length < nomes[i].length) {
+//       maior = i;
+//     }
+//   }
+//   return nomes[maior];
+// }
+
+// console.log(maiorNome(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));
+
+//exercicio 5
+
+//exercicio 6
+
+function sum (N) {
+  let resultado = 0;
+  for (let i = 0; i <= N; i += 1) {
+    resultado += i;
   }
-  return nomes[maior];
+  return resultado;
 }
 
-console.log(maiorNome(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));
+console.log(sum(5));
