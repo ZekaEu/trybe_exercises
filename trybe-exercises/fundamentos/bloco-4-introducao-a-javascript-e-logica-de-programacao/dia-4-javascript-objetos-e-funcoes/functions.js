@@ -14,14 +14,28 @@
 
 //exercicio 2
 
-function iMaiorNum (numbers) {
-  let iDoMaior = 0;
+// function iMaiorNum (numbers) {
+//   let iDoMaior = 0;
+//   for (let i in numbers) {
+//     if (numbers[iDoMaior] < numbers[i]) {
+//       iDoMaior = i;
+//     }
+//   }
+//   return iDoMaior;
+// }
+
+// console.log(iMaiorNum([2, 3, 6, 7, 10, 1]));
+
+//exercicio 3
+
+function iMenorNum (numbers) {
+  let iDoMenor = 0;
   for (let i in numbers) {
-    if (numbers[iDoMaior] < numbers[i]) {
-      iDoMaior = i;
+    if (numbers[iDoMenor] > numbers[i]) {
+      iDoMenor = i;
     }
   }
-  return iDoMaior;
+  return iDoMenor;
 }
 
-console.log(iMaiorNum([2, 4, 6, 7, 10, 0, -3]));
+console.log(iMenorNum([2, 4, 6, 7, 10, 0, -3]));
