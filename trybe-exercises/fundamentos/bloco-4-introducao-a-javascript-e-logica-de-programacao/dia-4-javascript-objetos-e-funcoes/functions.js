@@ -58,12 +58,27 @@
 
 //exercicio 6
 
-function sum (N) {
-  let resultado = 0;
-  for (let i = 0; i <= N; i += 1) {
-    resultado += i;
-  }
-  return resultado;
-}
+// function sum (N) {
+//   let resultado = 0;
+//   for (let i = 0; i <= N; i += 1) {
+//     resultado += i;
+//   }
+//   return resultado;
+// }
 
-console.log(sum(5));
+// console.log(sum(5));
+
+//exercicio 7 
+
+// function finalWord(word, ending) {
+//   igual = true;
+//   for (let i = 0; i < ending.length; i += 1) {
+//     if (word[word.length - ending.length + i] != ending[i]) {
+//       igual = false;
+//     }
+//   }
+//   return igual;
+// }
+
+// console.log(finalWord("trybe", "be"));
+// console.log(finalWord('joaofernando', 'fernan'));
