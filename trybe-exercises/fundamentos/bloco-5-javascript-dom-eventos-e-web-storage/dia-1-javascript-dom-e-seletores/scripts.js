@@ -11,7 +11,12 @@
 // document.getElementsByTagName('h1')[0].innerHTML = 'Exercício 5.1 - JavaScript';
 
 //exercicio 5.
-// document.getElementsByTagName('p').style.textTransform = 'uppercase';
+// let p = document.querySelectorAll('p');
+//   for (i of p) {
+//     i.innerText = i.innerText.toUpperCase();
+//   }
+
 
 //exercicio 6.
+let p = document.querySelectorAll('p');
  console.log(document.getElementsByTagName('p').innerText);
