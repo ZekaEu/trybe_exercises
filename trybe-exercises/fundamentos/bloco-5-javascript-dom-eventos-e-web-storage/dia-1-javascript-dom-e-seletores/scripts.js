@@ -18,5 +18,5 @@
 
 
 //exercicio 6.
-let p = document.querySelectorAll('p');
- console.log(document.getElementsByTagName('p').innerText);
+let p = document.getElementsByTagName('p');
+ console.log(p);
